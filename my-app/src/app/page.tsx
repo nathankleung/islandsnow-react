@@ -103,7 +103,7 @@ const FooterMenu = () => (
   <footer className="bg-dark" style={{backgroundColor: '#292929', color: 'white',}}>
     <div className="container py-3">
         <div className="row content-justify-center">
-            <div className="col-auto">
+            <div className="col-auto" style={{flex: 1}}>
                 <p>NAVIGATION</p>
                 <hr></hr>
                 <ul className="list-unstyled">
@@ -112,7 +112,7 @@ const FooterMenu = () => (
                     <li>Videos</li>
                 </ul>
             </div>
-            <div className="col-auto">
+            <div className="col-auto" style={{flex: 1}}>
                 <p>MAIN MENU</p>
                 <hr></hr>
                 <ul className="list-unstyled">
@@ -121,7 +121,7 @@ const FooterMenu = () => (
                     <li>Kids</li>
                 </ul>
             </div>
-            <div className="col-auto">
+            <div className="col-auto" style={{flex: 1}}>
                 <p>CONNECT</p>
                 <hr></hr>
                 <ul className="list-unstyled">
